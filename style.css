@@ -30,6 +30,7 @@ input{
     box-shadow: 0 3px 15px rgba(84, 84, 84, 0.1);
     font-size: 40px;
     text-align: right;
+    color: #ffffff;
 }
 input::placeholder{
     color: #FFF;
@@ -46,8 +47,14 @@ button{
     cursor: pointer;
     font-size: 20px;
 }
+button:hover{
+    border: 2px #3a5aaa solid;
+}
 .eq-btn{
     background-color: #3a5aaa;
+}
+.eq-btn:hover{
+    background-color: #2d52b0;
 }
 .operators{
     color: #7bacf6;
