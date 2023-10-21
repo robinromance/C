@@ -7,7 +7,6 @@ let screen = document.getElementById('inputBox')
             if(e.target.innerHTML == '='){
                 string = eval(string);
                 screen.value = string
-                console.log(string)
             }
             else if(e.target.innerHTML == 'AC'){
                 string = ''
